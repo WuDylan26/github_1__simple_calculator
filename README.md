@@ -1,15 +1,12 @@
-# Simple Python Calculator
-简易Python命令行计算器，大一Python练手开源项目
+# Simple Calculator 简易命令行计算器
+大一Python练习项目，模块化命令行计算器。
 
-## ✨ 功能
-- 支持加减乘除四则运算
-- 异常处理：非法数字、除零报错提示
-- 随时输入 q 退出程序
+## ✨ 当前功能
+- 基础四则运算：加、减、乘、除（自带除零异常捕获）
+- 阶乘运算 `5 !`
+- 异常捕获，友好错误提示
 
-## 🛠 技术栈
-Python 3.x
-
-## 📦 如何运行
-1. 克隆仓库
+## 🚀 运行方式
+环境：Python3
 ```bash
-git clone https://github.com/WuDylan26/simple-python-calculator.git
+python calculator.py
